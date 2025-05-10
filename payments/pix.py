@@ -5,7 +5,7 @@ class Pix:
     def __init__(self):
         pass
 
-    def create_payment(self, base_dir=""):
+    def create_payment(self, base_dir="."):
         # Criar o pagamento na instituição financeira
         bank_payment_id = str(uuid.uuid4())
 
